@@ -1,6 +1,9 @@
 import sys
 
 def highest_count(input: str) -> tuple[str, int]:
+    if not input:
+        return None
+
     chars = list(input)
     counts = {}
     for char in chars:
