@@ -5,3 +5,9 @@ Test-Driven Development Primer - In Python!
 
 We need a tool that takes input from the command line and returns the character the most times in that input!
 
+## Running Tests
+
+```sh
+export PYTHONPATH=$(pwd)
+pytest --cov --cov-report=html
+```

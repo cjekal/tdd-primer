@@ -14,7 +14,7 @@ def highest_count(input: str) -> tuple[str, int]:
     
     return sorted(counts.items(), key = lambda counts: counts[1])[-1]
 
-def main():
+def main() -> None:
     input = sys.argv[1]
     print(highest_count(input))
 
